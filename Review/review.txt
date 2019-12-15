@@ -1,0 +1,47 @@
+To Julian: In general, their numbers seem to be really small to me. I would use more internet and storage at home, downloading movies in BitTorrents programs. Is this really a real case optimisation? I fell I'm missing something important as a variable here.
+
+-  -
+
+This paper proposes to present a step-by-step scenario using IPFS that other works don't do and it's successful in doing it. Regardless of the optimisation in the system, this is a significant advantage by itself and, for me, leads to the conclusion that the paper should be accepted. The paper's organisation is excellent, and all the essential information seem to be in the right place. (I would need more information about the journal and the type of papers to make a more precise recommendation.)
+
+There are several mistakes that any automatic corrector would detect. In particular, the first line of the abstract has a typo in "implemennted" that discourages the reader very soon. The English, in general, is not very good and it should be improved. In some sentences, the meaning is compromised. This paper is the result of a thesis. But it's not a thesis, it's a paper, so it should be cited appropriately.
+
+The paper has a good introduction and establishes very well the context for the research. However, there is much repetitive information, sometimes because of the lack of English vocabulary and other times due to the structure clearly derived from copy and paste of previous documents. Unfortunately, the introduction's context is not used in the tests, which are all performed with simulated data.
+
+Line 67: It's not clear to me why "the instruments that have generated the latest data cannot update the server dataset".
+
+Lines 69-70. "To improve data availability, we should move to a decentralised storage system." I wouldn't say this is the only way to do it, which seems what the authors tried to establish in this sentence.
+
+Paper's introduction leads the reader to believe there will be an improvement in the system by changing from centralised to decentralised. However, the based system used in the delevopment is already a descentralized system. So all the comments and comparisons between centralised and decentralised systems are void.
+
+Line 190. "Data becomes publicly available for at least 24h." It's not clear to me why this has to happen, even after reading the explanation. In a real paper, I would read the reference too. Line 200 says the pinning is automatic. It's very confusing.
+
+Paragraph 203-210. Not clear at all. If one piece is lost, is everything lost? Or are they all duplicates?
+
+Line 226. "The program adds data to the IPFS whenever a there is a change in the folder". This statement seems to validate the automatic pinning. However, it's still not clear enough.
+
+Line 288. "It runs every minute to obtain status information from all nodes." Same previous issue.
+
+Figure 7: True/False is decided as Yes/No.
+
+Some small problems with the standardisation of the references.
+
+Paragraph 312-324. Is this not centralised in disguise?
+
+Figure 11. Information is too small, and it should be shown in a different way.
+
+I couldn't understand Figures 9 and 10.
+
+There is no Figure 12. I think the information is related to Figure 13.
+
+Line 358. I think it's Figure 13, and not Figure 10 again.
+
+Figure 13 shows 262158, which is bigger than 256 KB. [256 kilobits (informal notation: kilobyte = 1024 bytes) = 262144 bits.]
+
+Figure 14. Information is too small, and it should be shown in a different way. There are lots of free space in the figure that should be used properly.
+
+Line 465. "The IPFS could not store files with the same content". It seems a significant restriction for the original system.
+
+What are the advantages/disadvantages of using randomly created files?
+
+Line 565. "A directory watcher is added, forcing both instrument PCs to synchronise data and nodes to upload data automatically." Finally, it seems we have a concrete answer.
